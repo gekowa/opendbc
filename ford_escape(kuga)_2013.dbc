@@ -156,8 +156,11 @@ BO_ 711 BECMBatteryVoltageCurrent: 6 K17_EBCM
  SG_ HVBatteryCurrent : 12|13@0- (0.15,0) [-614.4|614.25] "A" NEO
 
 BO_ 16 Steering wheel: 8 XXX
- SG_ Steering wheel sign : 32|1@0+ (1,0) [0|1] "" XXX
  SG_ Steering wheel angle : 55|16@0+ (0.04395,0) [0|65535] "" XXX
+ SG_ Steering wheel sign : 40|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 304 VEHICLE_SPEED: 8 XXX
+ SG_ SPEED : 55|16@0+ (0.01,0) [0|65535] "kph" XXX
 
 BO_TX_BU_ 384 : K124_ASCM,NEO;
 BO_TX_BU_ 880 : NEO,K124_ASCM;
